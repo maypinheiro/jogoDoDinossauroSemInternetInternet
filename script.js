@@ -40,7 +40,7 @@ function jump(){
             dino.style.bottom= position + 'px';
         }
         
-    },20)
+    },30)
 }
 function createCactus(){
     const cactus =document.createElement('div');
@@ -65,7 +65,7 @@ function createCactus(){
             cactus.style.left =cactusPosition + 'px';
         }
         
-    },20)
+    },30)
     setTimeout(createCactus,randonTime);
 }
 createCactus()

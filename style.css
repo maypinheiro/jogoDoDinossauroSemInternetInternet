@@ -1,5 +1,11 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background:white;
+    background:rgb(0,162,232);
 }
 .dino{
     width: 60px;
@@ -18,12 +24,13 @@ body{
 .game-over{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: brown;
-    margin-top: 100px;
+    font-size: 50px;
+    color:greenyellow;
+    margin-top: 400px;
 }
 @keyframes slideright {
     from{
-        background-position: 70000%;
+        background-position: 700000%;
     }
     to {
         background-position: 0;
@@ -33,7 +40,7 @@ body{
 .background{
     position: absolute;
     bottom: 0;
-    background-image: url(imagens/fundopersonalizado.png);
+    background-image: url(imagens/planodefundo.png);
     background-repeat: repeat-x;
     animation: slideright 6000s infinite linear;
     width: 100%;
